@@ -30,7 +30,10 @@ $(document).ready(function() {
     const answerThree = parseInt($("#question3").val());
     const answerFour = parseInt($("#question4").val());
     const answerFive = parseInt($("#question5").val());
+    const test = parseInt($("#beverage").val());
+    alert(test);
     const result = logicBoard(answerOne, answerTwo, answerThree, answerFour, answerFive);
     $("#output").text(result);
   });
 });
+
