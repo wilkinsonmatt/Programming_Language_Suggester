@@ -12,7 +12,7 @@ function logicBoard(A, B, C, D, F) {
       return "Go";
     } 
     else {
-      return "Pyhon";
+      return "Python";
     }
   } 
   else {
