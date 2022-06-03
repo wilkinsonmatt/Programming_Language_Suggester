@@ -1,5 +1,5 @@
 
-/** Uses logic to see which programming lanague the user should learn based on their answers */
+/** Uses logic to see which programming lanuage the user should learn based on their answers */
 function logicBoard(A, B, C, D, E) {
   if (A === 1) {
     if (B === 1) {
@@ -40,12 +40,12 @@ $(document).ready(function() {
     const answerFour = parseInt($("#question4").val());
     const answerFive = parseInt($("#question5").val());
     let result = allAnwersSubmittedCheck(answerOne, answerTwo, answerThree, answerFour, answerFive);
+    
     if (result === true) {
       result = logicBoard(answerOne, answerTwo, answerThree, answerFour, answerFive);
       $("#output").text(result);
     } else {
-      result = "Please fill out all questions"
-      $("#output").text(result);
+      $("#output").text("Please fill out all questions");
     }
   });
 });

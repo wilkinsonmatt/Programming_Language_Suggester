@@ -8,56 +8,63 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  <h1> Which Programming lanuage should you choose?</h1> 
 
+  <div class="d-flex justify-content-center">
+    <h4> Which programming language should you choose?</h4> 
+  </div>
   
-
+  
   <div class="container">
     <form id="questions">
-        
-        <label for="question1"> This be question 1: </label>
-        <select class="form-control" id="question1">
-          <option value="0">---Select--- </option>
-          <option value="1">Coffee</option>
-          <option value="2">Tea</option>
-          <option value="3">Kombucha</option>
-        </select>
+      
+      <label for="question1"> <strong>This be question 1:</strong></label>
+      <select class="form-control" id="question1">
+        <option value="0">---Select--- </option>
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+      </select>
 
-        <label for="question2"> This be question 2: </label>
-        <select class="form-control" id="question2">
-          <option value="0">---Select--- </option>
-          <option value="1">Coffee</option>
-          <option value="2">Tea</option>
-          <option value="3">Kombucha</option>
-        </select>
+      <label for="question2"> This be question 2: </label>
+      <select class="form-control" id="question2">
+        <option value="0">---Select--- </option>
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+      </select>
 
-        <label for="question3"> This be question 5: </label>
-        <select class="form-control" id="question3">
-          <option value="0">---Select--- </option>
-          <option value="1">Coffee</option>
-          <option value="2">Tea</option>
-          <option value="3">Kombucha</option>
-        </select>
+      <label for="question3"> This be question 5: </label>
+      <select class="form-control" id="question3">
+        <option value="0">---Select--- </option>
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+      </select>
 
-        <label for="question4"> This be question 5: </label>
-        <select class="form-control" id="question4">
-          <option value="0">---Select--- </option>
-          <option value="1">Coffee</option>
-          <option value="2">Tea</option>
-          <option value="3">Kombucha</option>
-        </select>
+      <label for="question4"> This be question 5: </label>
+      <select class="form-control" id="question4">
+        <option value="0">---Select--- </option>
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+      </select>
 
-        <label for="question5"> This be question 5: </label>
-        <select class="form-control" id="question5">
-          <option value="0">---Select--- </option>
-          <option value="1">Coffee</option>
-          <option value="2">Tea</option>
-          <option value="3">Kombucha</option>
-        </select>
-  
-        <button type="submit" class="btn">sumbit your answers!</button>
+      <label for="question5"> This be question 5: </label>
+      <select class="form-control" id="question5">
+        <option value="0">---Select--- </option>
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+      </select>
+      
+      <div class="submitButton">
+        <button type="submit" class="btn btn-primary">Click here to submit your answers!</button>
+      </div>
+    </form>
 
-      </form>
+    <div class="results">
       <div id="output"></div>
+    </div>
+  </div>
 </body>
 </html>
