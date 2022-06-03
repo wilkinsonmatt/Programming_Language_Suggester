@@ -31,7 +31,7 @@ $(document).ready(function() {
     const answerFour = parseInt($("#question4").val());
     const answerFive = parseInt($("#question5").val());
     const test = parseInt($("#beverage").val());
-    alert(test);
+    alert(answerOne);
     const result = logicBoard(answerOne, answerTwo, answerThree, answerFour, answerFive);
     $("#output").text(result);
   });
