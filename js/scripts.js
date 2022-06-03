@@ -23,13 +23,13 @@ function logicBoard(A, B, C, D, F) {
 
 
 $(document).ready(function() {
-  $("form#-----").submit(function(event) {
+  $("form#questions").submit(function(event) {
     event.preventDefault();
-    const answerOne = parseInt($("#answer1").val());
-    const answerTwo = parseInt($("#answer2").val());
-    const answerThree = parseInt($("#answer3").val());
-    const answerFour = parseInt($("#answer4").val());
-    const answerFive = parseInt($("#answer5").val());
+    const answerOne = parseInt($("#question1").val());
+    const answerTwo = parseInt($("#question2").val());
+    const answerThree = parseInt($("#question3").val());
+    const answerFour = parseInt($("#question4").val());
+    const answerFive = parseInt($("#question5").val());
     const result = logicBoard(answerOne, answerTwo, answerThree, answerFour, answerFive);
     $("#output").text(result);
   });
