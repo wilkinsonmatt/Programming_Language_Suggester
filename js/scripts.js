@@ -5,7 +5,7 @@ function logicBoard(A, B, C, D, E) {
     if (B === 1) {
       return "Ruby";
     } else {
-      return "swift";
+      return "Swift";
     }
   } 
   else if (A === 2) {
@@ -43,9 +43,9 @@ $(document).ready(function() {
     
     if (result === true) {
       result = logicBoard(answerOne, answerTwo, answerThree, answerFour, answerFive);
-      $("#output").text(result);
+      $("#output").text("Your programming language is " + result + "!");
     } else {
-      $("#output").text("Please fill out all questions");
+      $("#output").text("Please answer all questions before submitting!");
     }
   });
 });
