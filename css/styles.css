@@ -7,13 +7,3 @@
   padding: 20px;
   display: block;
 }
-
-.gap {
-  line-height: 25px;
-  border: 2px solid black;
-  padding: 15px;
-  background-color: rgb(165, 186, 245);
-  display: block;
-  margin: auto;
-  box-sizing: border-box;
-}
