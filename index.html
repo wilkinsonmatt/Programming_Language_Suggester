@@ -8,13 +8,24 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-
   <div class="d-flex justify-content-center">
-    <h4> Which programming language should you choose?</h4> 
+    <div class="shadow-sm p-3 mb-5 bg-body rounded">
+      <h3>Which programming language should you choose?</h3> 
+    </div>
   </div>
   
-  
+  <div class="text-center">
+    <div class="align-self-center">
+      <img src="pictures\215px-Go_Logo_Blue.svg.png" class="rounded float-start" alt="Go logo">
+      <img src="pictures\64px-Ruby_logo.svg.png" class="rounded float-end" alt="ruby logo">
+      <img src="pictures\Rust_programming_language_black_logo.svg.png" class="rounded float-start" alt="rust logo">
+      <img src="pictures\Python-logo-notext.svg.png" class="rounded float-start" alt="Python logo">
+      <img src="pictures\Swift_logo.svg.png" class="rounded float-start" alt="swift">
+    </div>
+  </div>
+
   <div class="container">
+    <div class="shadow-sm p-3 mb-5 bg-body rounded">
     <form id="questions">
       
       <label for="question1"><strong>Are you an Apple person?</strong></label>
@@ -25,7 +36,7 @@
         <option value="3">maybe?</option>
       </select>
 
-      <label for="question2"><strong>Choose a drink?</strong></label>
+      <label for="question2"><strong>Beverage of choice?</strong></label>
       <select class="form-control" id="question2">
         <option value="0">---Select--- </option>
         <option value="1">Coffee</option>
@@ -41,7 +52,7 @@
         <option value="3">3</option>
       </select>
 
-      <label for="question4"><strong> "With great power comes great _________" </strong></label>
+      <label for="question4"><strong><i>"With great power comes great _________" </i></strong></label>
       <select class="form-control" id="question4">
         <option value="0">---Select--- </option>
         <option value="1">Cheese</option>
@@ -49,18 +60,19 @@
         <option value="3">sacrifice</option>
       </select>
 
-      <label for="question5"><strong>  This be question 5 </strong></label>
+      <label for="question5"><strong>What did you think of this survey?</strong></label>
       <select class="form-control" id="question5">
         <option value="0">---Select--- </option>
         <option value="1">This was fun!</option>
-        <option value="2">I'm confused?</option>
-        <option value="3">No comment...</option>
+        <option value="2">I'm confused? How is this going to help?!?</option>
+        <option value="3">I plead the 5th</option>
       </select>
       
       <div class="submitButton">
         <button type="submit" class="btn btn-primary">Click here to submit your answers!</button>
       </div>
     </form>
+    </div>
 
     <div class="results">
       <div id="output"></div>

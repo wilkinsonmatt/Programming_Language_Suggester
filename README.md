@@ -2,7 +2,7 @@
 
 #### By Matt Wilkinson
 
-#### Professional Portfolio in HTML
+#### Programming Language Suggester
 
 ## Github links
 * https://wilkinsonmatt.github.io/portfolio/
@@ -12,15 +12,20 @@
 
 * CSS
 * HTML
+* Bootstap
+* JS
+* Jqwery
 
 ## Description
 
-A basic HTML website which displays infomation about me. The site also inculdeds examples of my previous projects and github links to them.
+ A Programming Language Suggester webpage that asks future students a series of questions about themselves and provides a language suggestion based on their answers. 
+ 
+ (unfortunately the results aren't based on science)
 
 ## Setup/Installation Requirements
 
 * Download entire github file
-* launch index.HTML file in preferred browser 
+* launch index.HTML file in Google Chrome
 
 ## Known Bugs
 
