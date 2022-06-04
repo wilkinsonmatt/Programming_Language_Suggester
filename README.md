@@ -6,7 +6,7 @@
 
 ## Github links
 * https://wilkinsonmatt.github.io/portfolio/
-* https://github.com/wilkinsonmatt/portfolio/tree/gh-pages
+* https://github.com/wilkinsonmatt/Programming_Language_Suggester.git
 
 ## Technologies Used
 
