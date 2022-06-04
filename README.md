@@ -12,9 +12,9 @@
 
 * CSS
 * HTML
-* Bootstap
+* Bootstrap
 * JS
-* Jqwery
+* Jquery
 
 ## Description
 
