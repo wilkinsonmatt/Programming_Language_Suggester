@@ -115,5 +115,4 @@ $(document).ready(function() {
 
 
 
-
 // https://oldschool.runescape.wiki/w/Damage_per_second/Melee#Step_six:_Calculate_the_hit_chance
