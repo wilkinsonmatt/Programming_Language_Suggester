@@ -30,7 +30,6 @@ function allAnwersSubmittedCheck(A,B,C,D,E) {
   }
 }
 
-
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
